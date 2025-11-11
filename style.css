@@ -20,11 +20,11 @@ h1,h2,h3 {
     color: white;
 }
 
-nav {
-    display: flex;
+.nav-bar {
+    display: flex !important; 
     column-gap: 20px;
     width: 100vw;
-}
+} 
 
 a {
      font-size: 14px;
