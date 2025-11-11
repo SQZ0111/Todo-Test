@@ -21,7 +21,7 @@ h1,h2,h3 {
 }
 
 .nav-bar {
-    display: flex !important; 
+    display: flex; 
     column-gap: 20px;
     width: 100vw;
 } 
@@ -29,11 +29,11 @@ h1,h2,h3 {
 a {
      font-size: 14px;
      text-decoration: none;
-     color: white;
+     color: green;
 }
 a:hover {
 
-  display:inline-block;
+    display: flex;
     transform: scale(1.2);
 }
 li {
