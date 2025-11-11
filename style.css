@@ -15,6 +15,31 @@ body {
     justify-items: center;
 }
 
+/* header */
+h1,h2,h3 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    column-gap: 20px;
+    width: 100vw;
+}
+
+a {
+     font-size: 14px;
+     text-decoration: none;
+     color: white;
+}
+a:hover {
+
+  display:inline-block;
+    transform: scale(1.2);
+}
+li {
+    list-style: none;
+}
+
 
 .list {
     display: flex;
